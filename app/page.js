@@ -40,7 +40,7 @@ export default function Home() {
       <div className="bg-white rounded-2xl shadow-lg w-full max-w-2xl flex flex-col h-[600px]">
         {/* ヘッダー */}
         <div className="bg-blue-600 text-white text-center py-4 rounded-t-2xl font-bold text-lg">
-          📚 書籍AIチャット
+          📚 太宰治-人間失格 AIチャット
         </div>
 
         {/* メッセージ表示エリア */}
