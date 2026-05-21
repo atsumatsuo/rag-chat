@@ -9,7 +9,11 @@ export default function Home() {
   const messagesEndRef = useRef(null);
 
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    messagesEndRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "nearest",
+      inline: "nearest",
+    });
   }, [messages, loading]);
   const sendMessage = async () => {
     if (!input.trim()) return;
